@@ -11,7 +11,7 @@ html, body {
   height: 100vh;
   overflow: hidden;
   position: relative;
-  background-color: #f4f4f9; /* Soft light background for elegance */
+  background-color: #f4f4f9;
 }
 
 header, footer {
@@ -24,8 +24,8 @@ header, footer {
   align-items: center;
   padding: 0 5vw;
   z-index: 9;
-  background-color: #ffffff; /* White for clean contrast */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  background-color: #ffffff; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 header {
@@ -33,48 +33,47 @@ header {
 }
 
 header span {
-  font-size: 24px; /* Increased title font size */
-  font-weight: bold; /* Make the title bold */
-  color: #333A3F; /* Dark color for header text */
+  font-size: 24px; 
+  font-weight: bold;
+  color: #333A3F;
 }
 
 footer {
-  bottom: 20px; /* Distance from the bottom */
-  background: linear-gradient(180deg, #ffffff, #f0f0f0); /* Soft gradient for depth */
-  padding: 10px 5vw; /* Padding for a more spacious feel */
-  border-radius: 10px; /* Rounded corners for a modern look */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+  bottom: 20px; 
+  background: linear-gradient(180deg, #ffffff, #f0f0f0); 
+  padding: 10px 5vw;
+  border-radius: 10px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 footer h1 {
   font-size: 36px;
   margin: 0;
-  color: #333A3F; /* Dark color for footer text */
-  text-align: center; /* Centered text in footer */
-  flex: 1; /* Allow footer text to take full width */
-  letter-spacing: 1px; /* Slightly spaced letters for elegance */
+  color: #333A3F; 
+  text-align: center; 
+  flex: 1;
+  letter-spacing: 1px; 
 }
 
 footer h1:hover {
-  color: #4a90e2; /* Change color on hover for interaction */
-}
+  color: #4a90e2; }
 
 nav {
   display: flex;
   align-items: center;
-  justify-content: flex-end; /* Align buttons to the right */
-  gap: 15px; /* Space between button pairs */
+  justify-content: flex-end; 
+  gap: 15px; 
 }
 
 nav button {
   all: unset;
-  width: 80px; /* Smaller fixed width */
-  height: 28px; /* Smaller fixed height */
-  font-size: 14px; /* Adjusted font size */
+  width: 80px; 
+  height: 28px; 
+  font-size: 14px;
   background: transparent;
   border: none;
   position: relative;
-  color: #333A3F; /* Dark color for button text */
+  color: #333A3F; 
   cursor: pointer;
   z-index: 1;
   display: flex;
@@ -100,46 +99,46 @@ nav button::before {
   transform: translate(0%, 0%);
   width: 100%;
   height: 100%;
-  background: #eaeaea; /* Soft gray for button background */
+  background: #eaeaea; 
   border-radius: 10px;
 }
 
 nav button::after {
-  transform: translate(5px, 5px); /* Adjusted position for smaller button */
-  width: 30px; /* Smaller shadow width */
-  height: 30px; /* Smaller shadow height */
-  background: rgba(255, 255, 255, 0.15); /* Slightly transparent white for depth */
+  transform: translate(5px, 5px); 
+  width: 30px; 
+  height: 30px; 
+  background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border-radius: 50px;
 }
 
 nav button:hover::before {
-  transform: translate(5%, 5%); /* Reduce hover translation for smaller button */
-  width: 105%; /* Slightly larger on hover */
-  height: 105%; /* Slightly larger on hover */
+  transform: translate(5%, 5%); 
+  width: 105%;
+  height: 105%; 
 }
 
 nav button:hover::after {
   border-radius: 10px;
   transform: translate(0, 0);
-  width: 100%; /* Consistent width on hover */
-  height: 100%; /* Consistent height on hover */
+  width: 100%; 
+  height: 100%;
 }
 
 nav button:active::after {
   transition: 0s;
-  transform: translate(0, 3px); /* Slight lift effect on click */
+  transform: translate(0, 3px);
 }
 
 main {
   display: flex;
-  height: calc(100vh - 100px); /* Account for header and footer */
+  height: calc(100vh - 100px); 
   width: fit-content;
   overflow: hidden;
   transition: transform 0.5s ease;
-  background-color: #ffffff; /* Main area white for consistency */
-  border-top: 1px solid #eaeaea; /* Subtle border for separation */
+  background-color: #ffffff; 
+  border-top: 1px solid #eaeaea; 
 }
 
 section {
@@ -148,30 +147,30 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; /* Center items horizontally */
+  align-items: center; 
   padding: 0 10vw;
-  text-align: center; /* Center text within sections */
+  text-align: center; 
 }
 
 h1 {
   font-size: 72px;
-  color: #333A3F; /* Dark color for headings */
+  color: #333A3F;
 }
 
 h2 {
   font-size: 48px;
-  color: #555; /* Softer dark color for subheadings */
+  color: #555; 
 }
 
 li {
   font-size: 36px;
   margin: 18px 0;
-  color: #333A3F; /* Dark color for list items */
+  color: #333A3F;
 }
 
 ul {
   list-style-type: none;
-  padding: 0; /* Remove default padding for lists */
+  padding: 0;
 }
 
 h1, h2 {
